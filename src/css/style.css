@@ -1,0 +1,21 @@
+.root{
+    -fx-font-size: 16;
+    -fx_background-image: url("https://lh3.googleusercontent.com/proxy/meIa3DLp5DlG7vJmo2fwxgwJfmpcBBiLyg1gMddQM-E4lVdu6yWsdbcpf5BBc1PFilCqPs1jQM2z-gCULRf57_ecVw");
+    -fx_background-size: 100% 100%;
+}
+.button{
+    -fx-background-color: aquamarine;
+}
+
+.button:hover, .label:hover{
+    -fx-background-color: green;
+    -fx-font-weight: bold;
+}
+.text-area{
+    -fx-background-color: green;
+    -fx-control-inner-background: beige;
+    -fx-text-fill: blue;
+    -fx-highlight-fill: aquamarine;
+    -fx-highlight-text-fill: red;
+    -fx-font-style: italic;
+}
